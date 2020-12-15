@@ -22,6 +22,8 @@ public class ContentDto {
     @NonNull
     private String images;
 
+    private Float goal;
+
     @NonNull
     private Integer type;
 
@@ -30,6 +32,9 @@ public class ContentDto {
 
     @NonNull
     private Boolean status;
+
+    @NonNull
+    private Boolean featured;
 
     @NonNull
     private Timestamp created_at;

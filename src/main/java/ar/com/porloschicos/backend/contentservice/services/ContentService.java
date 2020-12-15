@@ -39,7 +39,6 @@ public class ContentService {
 
         ContentDao oldContent = contentDao.getById(content.getId());
 
-
         ContentDao newContent = new ContentDao(content);
 
         return contentDao.save(newContent);

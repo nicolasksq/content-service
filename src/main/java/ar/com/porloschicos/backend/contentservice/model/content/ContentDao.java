@@ -41,8 +41,7 @@ public class ContentDao {
     @Column(nullable = false)
     private Timestamp updated_at;
 
-    public ContentDao() {
-    }
+    public ContentDao() { }
 
     public ContentDao(String title, String content, String images, Integer type) {
 
